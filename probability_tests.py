@@ -1,7 +1,7 @@
 """
 Contains various local tests for Assignment 3.
 """
-
+#Part 1a
 def network_setup_test(power_plant):
     """Test that the power plant network has the proper number of nodes and edges."""
     nodes = power_plant.nodes
@@ -15,6 +15,7 @@ def network_setup_test(power_plant):
     else:
         print('incorrect number of nodes')
 
+#Part 1c
 def probability_setup_test(power_plant):
     """Test that all nodes in the power plant network have proper probability distributions.
     Note that all nodes have to be named predictably for tests to run correctly."""
