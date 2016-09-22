@@ -1,6 +1,6 @@
 # Setup
 Clone this repository recursively:
-`git clone --recursive https://github.gatech.edu/omscs6601/assignment_1.git`
+`git clone --recursive https://github.gatech.edu/omscs6601/assignment_3.git`
 
 (If your version of git does not support recurse clone, then clone without the option and run `git submodule init` and `git submodule update`).
 
@@ -46,8 +46,6 @@ Finally, commit the new updates to your branch and continue developing:
 `git commit -am "<funny message vilifying TAs for the update>"`
 
 # Submit your code
-A friendly reminder: please ensure that your submission is in `player_submission.py`. The script described in the following section automatically sends that file to the servers for processing.
+A friendly reminder: please ensure that your submission is in `probability_solution.py`. The script described in the following section automatically sends that file to the servers for processing.
 
-To submit your code and have it evaluated for a grade, use `python submit.py assignment_1`.  We are going to limit you to 2 submissions an hour and the last submission before the deadline will be used to determine your grade.
-
-To enter yourself into the playoffs against your classmates, run `python submit.py --enable-face-off assignment_1`. Ensure that you have created the required `AI.txt` to enter the tournament.
+To submit your code and have it evaluated for a grade, use `python submit.py assignment_3`.  The last submission before the deadline will be used to determine your grade.
