@@ -15,10 +15,6 @@ You must first have the [NumPy](http://www.numpy.org/) package installed.
 ###The included example network:
 The example files give a simple example of how a Bayes Network can be implemented. It uses a Bayes Network created from 4 nodes, Cloudy, Rainy, Sprinkler, and WetGrass.
 
-Here is a layout of what the network looks like
-Inline-style:
-![alt text](examples/bayesnet-example.jpg "Cloudy,Sprinker,Rain,WetGrass Example Network")
-
 
 To run the example files navigate to the examples directory and run:
 ```
