@@ -20,3 +20,7 @@ Q: Is an iteration of Gibbs ?
 Q: How will 2c and 2d be graded?
 - 2c: Correctness of a new sample based on previous sample (differing in atmost 1 position)
 2d: Completeness of the method to be able to converge to any posterior, preferably close to correct (but not necessary!)
+
+Q: Bonnie says return types not matching even though I'm returning a list (or float)?
+- Please check that you're not returning a numpy array (or numpy float) instead of a list (float). 
+
