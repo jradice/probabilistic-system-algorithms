@@ -1,4 +1,4 @@
-"""Testing pbnt. Run this before anything else to get pbnt to work!"""
+x"""Testing pbnt. Run this before anything else to get pbnt to work!"""
 import sys
 if('pbnt/combined' not in sys.path):
     sys.path.append('pbnt/combined')
