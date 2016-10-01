@@ -31,8 +31,8 @@ def require_pledges():
 def display_assignment_3_output(submission):
   timestamp = "{:%Y-%m-%d-%H-%M-%S}".format(datetime.datetime.now())
 
-  #while not submission.poll():
-  #  time.sleep(3.0)
+  while not submission.poll():
+    time.sleep(3.0)
 
   if submission.feedback():
 
